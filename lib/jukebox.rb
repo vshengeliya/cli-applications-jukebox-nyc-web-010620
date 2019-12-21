@@ -46,7 +46,7 @@ def run(songs)
       help
     end
     if user_response == "list"
-      list
+      list (songs)
     end
     if user_response == "play"
       play (songs)
