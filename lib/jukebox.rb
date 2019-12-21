@@ -53,4 +53,27 @@ end
   end
 
 
+def run(songs)
+  while true do
+    puts "Please enter a command:"
+    user_response = gets.strip
+
+    if user_response == "exit"
+      exit_jukebox 
+      break
+    end
+    if user_response  == "help"
+      help
+    end
+    if user_response == "list"
+      list
+    end
+    if user_response == "play"
+      play (songs)
+    else
+      puts "Invalid entry"
+    end 
+  end
+end
+
 
