@@ -29,28 +29,8 @@ end
     puts "Goodbye"
   end 
   
-  def run(songs)
-  while true do
-    puts "Please enter a command:"
-  user_response = gets.strip
-  if user_response == "exit"
-    exit_jukebox 
-    break
-  if user_response  == "help"
-    help
-  if user_response == "list"
-    list
-  if user_response == "play"
-    play (songs)
-    
-    else
-      puts "Invalid entry"
-  end 
-  end
-  end 
-  end
-  end 
-  end
+  # 
+  
 
 
 def run(songs)
